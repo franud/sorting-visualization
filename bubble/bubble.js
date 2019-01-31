@@ -6,10 +6,11 @@ function setup() {
   createCanvas(windowWidth, windowHeight); //Medida del canvas
   values = new Array(width); //
   for (let i = 0; i < values.length; i++) {
-    //values[i] = random (height);
-    values[i] = noise(i)*height;
+    values[i] = random (height);
+    //values[i] = noise(i)*height;
+  }
 }
-}
+
 function draw() {
   background(0);
   if (i < values.length) {
@@ -27,7 +28,7 @@ function draw() {
   i++;
 
   for (let i = 0; i < values.length; i++) {
-    stroke(255);
+    stroke(0, 0, 255);
     line(i, height, i, height - values[i]);
   }
 }

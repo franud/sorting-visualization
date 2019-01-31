@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  margin: 80px;
+}
+
+h1 {
+  color: red;
+  font-family: monospace;
+  font-size: 200%;
+}
+
+h4 {
+  color: cyan;
+  font-family: monospace;
+  font-size: 125%;
+}
+
+p {
+  color: green;
+  font-family: monospace;
+  padding-bottom: 20px;
+}
+
+a {
+  color: white;
+  font-family: monospace;
+  text-decoration:none;
+}
+
+.tipos {
+  color: white;
+  font-family: monospace;
+  border: 1px solid powderblue;
+  padding: 20px;
+}

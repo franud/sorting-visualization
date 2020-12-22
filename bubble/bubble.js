@@ -27,9 +27,9 @@ function draw() {
   }
   i++;
 
-  for (let i = 0; i < values.length; i++) {
+  for (let k = 0; k < values.length; k++) {
     stroke(0, 0, 255);
-    line(i, height, i, values[i]);
+    line(k, height, k, values[k]);
   }
 }
 

@@ -29,7 +29,7 @@ function draw() {
 
   for (let i = 0; i < values.length; i++) {
     stroke(0, 0, 255);
-    line(i, height, i, height - values[i]);
+    line(i, height, i, values[i]);
   }
 }
 
